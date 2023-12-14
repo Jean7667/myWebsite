@@ -7,6 +7,7 @@ color: brown;
 }
 
 .sectionDiv {
+width:100%;
 border: 1px solid ;
 border-color: black;
 background-color: aliceblue;
@@ -18,3 +19,8 @@ background-color: aliceblue;
     background-color: aliceblue;
     border-radius: 5 px;
     }
+.a100div {
+    background-color: blue;
+    width: 100px;
+    min-height: 100px;
+}
