@@ -6,8 +6,15 @@ font-family: 'Times New Roman', Times, serif;
 color: brown;
 }
 
-.divSection {
+.sectionDiv {
 border: 1px solid ;
 border-color: black;
 background-color: aliceblue;
 }
+
+.articleDiv {
+    border: 1px solid ;
+    border-color: rgba(109, 126, 11, 0.644);
+    background-color: aliceblue;
+    border-radius: 5 px;
+    }
