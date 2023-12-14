@@ -3,10 +3,11 @@
 
 body {
 font-family: 'Times New Roman', Times, serif;
+color: brown;
 }
 
-#divSection {
+.divSection {
 border: 1px solid ;
-
-
+border-color: black;
+background-color: aliceblue;
 }
