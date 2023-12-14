@@ -3,7 +3,7 @@
 
 body {
 font-family: 'Times New Roman', Times, serif;
-color: brown;
+color: rgb(255, 250, 250);
 }
 
 .sectionDiv {
@@ -19,8 +19,25 @@ background-color: aliceblue;
     background-color: aliceblue;
     border-radius: 5 px;
     }
-.a100div {
-    background-color: blue;
-    width: 100px;
-    min-height: 100px;
+.flexDivSection {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    background-color: hwb(225 41% 23% / 0.555);
+    
+}
+.div100 {
+    width: 100px;    
+    height: 100px;
+    background-color: hwb(225 16% 53% / 0.555);
+    border: solid 5px;
+    border-top: 2px;
+}
+
+.div100r {
+    width: 100px;    
+    height: 100px;
+    background-color: hwb(225 16% 53% / 0.555);
+    border: solid 5px;
+    border-radius: 50%;
 }
