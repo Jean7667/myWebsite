@@ -26,7 +26,7 @@ background-attachment: fixed;
     border: 1px solid ;
     border-color: rgba(109, 126, 11, 0.644);
     background-color: aliceblue;
-    border-radius: 5 px;
+    border-radius: 15 px;
     }
 .flexDivSection {
     display:flex;
@@ -36,11 +36,10 @@ background-attachment: fixed;
     
 }
 .div100 {
-    width: 100px;    
-    height: 100px;
+    width: 30%;    
+    height: auto;
     background-color: hwb(225 16% 53% / 0.555);
-    border: solid 5px;
-    border-top: 2px;
+    border: solid 2px;
 }
 
 .div100r {
