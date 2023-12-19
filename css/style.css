@@ -100,10 +100,6 @@ section {
 .five {background-color: #00a5cb;}
 
 
-
-
-
-
 .sectionDiv {
 width:100%;
 border: 1px solid ;
@@ -114,10 +110,12 @@ background-attachment: fixed;
 }
 
 .articleDiv {
-    border: 1px solid ;
+    display: flex;  
+    border: 5px solid ;
     border-color: rgba(109, 126, 11, 0.644);
     background-color: aliceblue;
     border-radius: 15 px;
+    z-index: 2;
     }
 .flexDivSection {
     display:flex;
