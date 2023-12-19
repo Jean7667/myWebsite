@@ -4,8 +4,8 @@
 /*css reset*/
 
 *{
-  margin: 0;
-  padding top: 0;
+  margin: 0px;
+  padding top:0px;
   box-sizing: border-box;
 }
 
@@ -40,7 +40,7 @@ body {
 font-family: 'Times New Roman', Times, serif;
 color: rgb(255, 250, 250);
 
-background-image: linear-gradient(to right top, #270066, #250f70, #211b7a, #1c2584, #142f8d, #093f9b, #004fa7, #005fb3, #0078c1, #008fc9, #00a5cb, #00b9ca);
+background-image: linear-gradient(to right top, #270066, #250f70, #211b7a, #142f8d, #093f9b, #004fa7, #005fb3, #0078c1, #008fc9, #00a5cb, #00b9ca);
 height: 100%;
     margin: 0;
     background-repeat: no-repeat;
@@ -48,10 +48,20 @@ height: 100%;
 
 }
 
+.tittleMenu {
+  background-color: #270066;
+  width: 100%;
+  height: fit-content;
+  box-shadow: rgb(20, 0, 55) 0px 5px 10px 0px;
+  justify-content: center;
+  position: fixed;
+  top: 40px;
+  }
+
 header, footer {
   text-align: center;
   color: beige;
-  font-size: 0.5 rem;
+  font-size: 2.5 rem;
   
 
 }
@@ -59,28 +69,35 @@ header, footer {
 header {
 background-color: #008fc9;
 width: 100%;
-height: 100px;
-position: sticky;
-top: -200px;
+height: 40px;
+position: fixed;
+top: 0;
 }
 
 footer{
 background-color: #008fc9;
 width: 100%;
-height: 100px;
-position: sticky;
+height: 50px;
+position: fixed;
 bottom: 0;
 }
 
-section {
 
-  height: 100vh;
+section {
+  margin-top: 200px;
+  padding-top: 100px;
+  height: 200vh;
+  width: 100%;
 }
 
-.one {background-color: #004fa7;}
-.two {background-color: #005fb3;
+.one {background-color: #000305;}
+
+.two {background-color: #000305;}
+
 .three {background-color: #0078c1;}
+
 .four {background-color: #008fc9;}
+
 .five {background-color: #00a5cb;}
 
 
