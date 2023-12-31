@@ -48,6 +48,19 @@ height: 100%;
 
 }
 
+.center {
+  border: 5px solid;
+  height:100px;
+  max-width: fit-content;
+  line-height: 2rem;  
+}
+
+h1 {
+  line-height:%
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .tittleMenu {
   background-color: #270066;
   width: 100%;
