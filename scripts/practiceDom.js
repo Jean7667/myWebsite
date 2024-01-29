@@ -71,6 +71,7 @@ view2.style.flexDirection="row"
 view2.style.flexWrap="wrap"
 view2.style.margin="10px"
 
+
 while (view2.lastChild) {
     view2.lastChild.remove();
 }
@@ -85,6 +86,7 @@ const createDivs = (parent, iter) => {
         newDiv.style.display ="flex";
         newDiv.style.justifyContent ="center";
         newDiv.style.alignItems ="center";
+        // make it appear on page 
         parent.append(newDiv);
     };
 
@@ -93,3 +95,41 @@ const createDivs = (parent, iter) => {
 for(let i = 1; i<= 9; i++) {
     createDivs (view2,i);
 }
+
+
+///----------------------------------------------
+/*end section  **/
+///----------------------------------------------
+
+
+const view = document.querySelector("#view2");
+
+// Syntax : addEventListener (event,)function, useCapture
+
+const doSomething = () => {
+    alert ("doing Something");
+} 
+
+// what is the false?
+h2.addEventListener("click",doSomething, false)
+h2.removeEventListener("click", doSomething, false)
+
+h2.addEventListener("click", (event) => {
+    console.log(event.target);
+    event.target.textContent="clicked";
+}); 
+
+document.addEventListener("readystatechange", (event) => {
+    if (event.target.readyState === "complete");
+    iniApp();    
+});
+
+const initApp = () => {
+    const view = docuemtn.querySelector("#view2");
+    const div = view.querySelector("div");
+    const h2 = div.querySelector("h2");
+
+    view.addEventListener
+
+}
+
